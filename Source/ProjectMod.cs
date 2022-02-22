@@ -8,6 +8,7 @@ namespace ProjectMod
     {
         static ProjectMod()
 		{
+			// Fires second
             Log.Message("Static Project Mod Class Loaded");
 		}
     }
@@ -16,6 +17,7 @@ namespace ProjectMod
 	{
 		public ProjectModConfig(ModContentPack content) : base(content)
 		{
+			// Fires first
 			Log.Message("Inherited Project Mod Class Loaded");
 		}
 	}
