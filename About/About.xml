@@ -1,0 +1,10 @@
+<ModMetaData>
+	<name>Project Mod</name>
+	<author>cssen</author>
+    <packageId>cssen.ProjectMod</packageId>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<description>TODO</description>
+	<url>https://steamcommunity.com/id/cssen/myworkshopfiles/?appid=294100</url>
+</ModMetaData>
