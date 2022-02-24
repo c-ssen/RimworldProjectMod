@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>ProjectMod_Cardboard</defName>
+		<label>cardboard</label>
+		<description>A paper based material.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Cardboard</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>20</stackLimit>
+		<healthAffectsPrice>true</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<MarketValue>2</MarketValue>
+			<Mass>0.2</Mass>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>3.0</DeteriorationRate>
+		</statBases>
+		<intricate>true</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+</Defs>
